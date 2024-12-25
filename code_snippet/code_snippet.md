@@ -1205,7 +1205,9 @@ console.log("10" - "4" + "2");
 
 "62"
 
-"10" - "4" + "2" → "62" ("10" - "4" is 6 (numbers), and 6 + "2" results in "62"
+"10" - "4" is 6 (numbers), and then
+6 + "2" results is "62"
+"10" - "4" + "2" → "62" 
 </details>
 
 
