@@ -6,6 +6,8 @@ Uber Interview Experience ✌️
 
 Position: SSE
 
+Compensation - 50 base + around 40 esops
+
 Credit - Bhasker joshi 
 
 [Bhasker Linkedin profile](https://www.linkedin.com/in/bhaskarj61) 
