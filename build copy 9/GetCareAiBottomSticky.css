@@ -1,0 +1,68 @@
+.chatbot-container {
+  position: fixed;
+  width: 100%;
+  background-color: #E6F5FC;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  z-index: 3;
+  padding: 12px 16px;
+  border: 1px solid #28328C;
+  top: 85vh; }
+
+.chatbot-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url("https://www.practo.com/consult/static/images/home/doctor.png") center/cover no-repeat; }
+
+.chatbot-content {
+  flex: 1; }
+
+.chatbot-title {
+  /* font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px; */
+  display: flex;
+  align-items: center;
+  gap: 6px; }
+
+.chatbot-title span {
+  background-color: #e6f8e6;
+  color: green;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 5px; }
+
+.chatbot-input-wrapper {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin-top: 4px; }
+
+.chatbot-input-wrapper input {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+  font-size: 14px; }
+
+.chatbot-send {
+  background: #0080ff;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer; }
+
