@@ -1,0 +1,116 @@
+{
+  "_from": "@practo/practo-ai@0.0.20",
+  "_id": "@practo/practo-ai@0.0.20",
+  "_inBundle": false,
+  "_integrity": "sha512-pY5xSG+o0WHGVqalz3sRtChT1I7D7SHQSS2bGqc+t9ta94omh6csEpi0Jw6iUJaPxVQRNDhfDSfYSeIgVarUvQ==",
+  "_location": "/@practo/practo-ai",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@practo/practo-ai@0.0.20",
+    "name": "@practo/practo-ai",
+    "escapedName": "@practo%2fpracto-ai",
+    "scope": "@practo",
+    "rawSpec": "0.0.20",
+    "saveSpec": null,
+    "fetchSpec": "0.0.20"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@practo/practo-ai/0.0.20/1031f4233a70d8f4fd2ecbc43666d5ce1d80f490",
+  "_shasum": "1031f4233a70d8f4fd2ecbc43666d5ce1d80f490",
+  "_spec": "@practo/practo-ai@0.0.20",
+  "_where": "/Users/ashok/Desktop/Topaz/topaz/segments/scripts/bottomsticky",
+  "author": {
+    "name": "Practo"
+  },
+  "bugs": {
+    "url": "https://github.com/practo/consumer-ui/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "core-js": "^3.36.0",
+    "react-cookie": "0.4.7"
+  },
+  "deprecated": false,
+  "description": "Reusable React components library",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/addon-links": "^7.0.0",
+    "@storybook/react": "^7.0.0",
+    "@storybook/react-webpack5": "^7.0.0",
+    "@types/mdx": "^2.0.11",
+    "@types/node": "^20.11.19",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vue/language-core": "2.2.8",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.2",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/practo/consumer-ui#readme",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "library",
+    "practo"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "name": "@practo/practo-ai",
+  "peerDependencies": {
+    "@sendbird/chat": "^4.12.0",
+    "@sendbird/uikit-react": "^3.5.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.2.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/practo/consumer-ui.git"
+  },
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "build-storybook": "build-storybook",
+    "build:types": "tsc --emitDeclarationOnly",
+    "dev": "vite",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest"
+  },
+  "style": "./dist/style.css",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.20"
+}
